@@ -1,0 +1,271 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+}
+
+p,
+a,
+li,
+blockquote {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #4c4e61;
+}
+
+.introduction,
+.card {
+  width: calc(100% - 4.266rem);
+  margin: 0 auto 2rem auto;
+}
+
+.introduction {
+  margin-top: 5.333rem;
+}
+.introduction h1 {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  margin-bottom: 1.266rem;
+}
+.introduction h1::first-line {
+  font-weight: 200;
+}
+.introduction p {
+  line-height: 1.5;
+  color: #a3a5ae;
+}
+
+.card {
+  max-width: 350px;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #000;
+  border-radius: 4px;
+  text-align: left;
+  overflow: auto;
+}
+.card::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.card h2 {
+  margin-bottom: 1rem;
+}
+.card p {
+  margin-bottom: 2rem;
+  font-size: 0.733rem;
+  color: #a3a5ae;
+  line-height: 2;
+}
+.card img {
+  float: right;
+}
+
+.supervisor {
+  border-color: #ea5353;
+}
+
+.team-builder {
+  border-color: #45d3d3;
+}
+
+.karma {
+  border-color: #fcaf4a;
+}
+
+.calculator {
+  border-color: #549ef2;
+  margin-bottom: 5.333rem;
+}
+
+@media screen and (min-width: 950px) {
+  .introduction {
+    max-width: 30%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .introduction {
+    margin-bottom: 5.333rem;
+  }
+  .introduction h1 {
+    font-size: 1.8rem;
+  }
+
+  .cards {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calculator {
+    margin-bottom: 2rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+  .card p {
+    font-size: 0.866rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
